@@ -1,4 +1,4 @@
-package tsdb
+package intervalv2
 
 import (
 	"fmt"
@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/grafana/grafana-plugin-sdk-go/backend"
-	"github.com/grafana/grafana/pkg/components/gtime"
 	"github.com/grafana/grafana/pkg/tsdb/interval"
 )
 
@@ -91,7 +90,7 @@ func GetIntervalFrom(dsInterval, queryInterval string, queryIntervalMS int64, de
 	if isPureNum {
 		interval += "s"
 	}
-	parsedInterval, err := gtime.ParseDuration(interval)
+	parsedInterval, err := time.ParseDuration(interval)
 	if err != nil {
 		return time.Duration(0), err
 	}
