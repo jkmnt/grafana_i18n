@@ -1,3 +1,5 @@
+import { t } from 'ttag';
+
 import { GrafanaTheme, isDateTime, TimeOption, TimeRange, TimeZone } from '@grafana/data';
 import { css, cx } from 'emotion';
 import React, { memo, useState } from 'react';
@@ -177,7 +179,7 @@ export const TimePickerContentWithScreenSize: React.FC<PropsWithScreenSize> = (p
             {!hideQuickRanges && (
               <>
                 <TimeRangeList
-                  title="Relative time ranges"
+                  title={t`Relative time ranges`}
                   options={quickOptions}
                   onSelect={onChange}
                   value={value}
@@ -185,7 +187,7 @@ export const TimePickerContentWithScreenSize: React.FC<PropsWithScreenSize> = (p
                 />
                 <div className={styles.spacing} />
                 <TimeRangeList
-                  title="Other quick ranges"
+                  title={t`Other quick ranges`}
                   options={otherOptions}
                   onSelect={onChange}
                   value={value}
@@ -237,7 +239,7 @@ const NarrowScreenForm: React.FC<FormProps> = (props) => {
           </div>
           {showHistory && (
             <TimeRangeList
-              title="Recently used absolute ranges"
+              title={t`Recently used absolute ranges`}
               options={historyOptions}
               onSelect={onChange}
               value={value}
