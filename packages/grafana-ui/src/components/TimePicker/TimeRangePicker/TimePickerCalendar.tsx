@@ -1,3 +1,5 @@
+import { t } from 'ttag';
+
 import React, { FormEvent, memo, useCallback } from 'react';
 import { css } from 'emotion';
 import Calendar from 'react-calendar/dist/entry.nostyle';
@@ -278,7 +280,7 @@ const Footer = memo<Props>(({ onClose, onApply }) => {
   return (
     <div className={styles.container}>
       <Button className={styles.apply} onClick={onApply}>
-        Apply time range
+        {t`Apply time range`}
       </Button>
       <Button variant="secondary" onClick={onClose}>
         Cancel

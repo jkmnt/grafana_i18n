@@ -229,7 +229,7 @@ const NarrowScreenForm: React.FC<FormProps> = (props) => {
           }
         }}
       >
-        <TimePickerTitle>Absolute time range</TimePickerTitle>
+        <TimePickerTitle>{t`Absolute time range`}</TimePickerTitle>
         {!hideQuickRanges && <Icon name={!collapsed ? 'angle-up' : 'angle-down'} />}
       </div>
       {!collapsed && (
@@ -261,7 +261,7 @@ const FullScreenForm: React.FC<FormProps> = (props) => {
     <>
       <div className={styles.container}>
         <div aria-label="TimePicker absolute time range" className={styles.title}>
-          <TimePickerTitle>Absolute time range</TimePickerTitle>
+          <TimePickerTitle>{t`Absolute time range`}</TimePickerTitle>
         </div>
         <TimeRangeForm
           value={props.value}
@@ -274,7 +274,7 @@ const FullScreenForm: React.FC<FormProps> = (props) => {
       {props.showHistory && (
         <div className={styles.recent}>
           <TimeRangeList
-            title="Recently used absolute ranges"
+            title={t`Recently used absolute ranges`}
             options={props.historyOptions || []}
             onSelect={props.onChange}
             value={props.value}

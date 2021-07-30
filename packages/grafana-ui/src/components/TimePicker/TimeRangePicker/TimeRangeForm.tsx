@@ -1,3 +1,5 @@
+import { t } from 'ttag';
+
 import React, { FormEvent, useState, useCallback, useEffect } from 'react';
 import {
   TimeZone,
@@ -110,7 +112,7 @@ export const TimeRangeForm: React.FC<Props> = (props) => {
         />
       </Field>
       <Button aria-label="TimePicker submit button" onClick={onApply}>
-        Apply time range
+        {t`Apply time range`}
       </Button>
 
       <TimePickerCalendar

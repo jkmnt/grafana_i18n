@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:15
+msgid "second"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:16
+msgid "minute"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:17
+msgid "hour"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:18
+msgid "day"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:19
+msgid "week"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:20
+msgid "month"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:21
+msgid "year"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:25
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:31
+msgid "Today"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:26
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:32
+msgid "Today so far"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:27
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:33
+msgid "This week"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:28
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:34
+msgid "This week so far"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:29
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:35
+msgid "This month"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:30
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:36
+msgid "This month so far"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:31
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:37
+msgid "This year"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:32
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:38
+msgid "This year so far"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:34
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:25
+msgid "Yesterday"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:38
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:26
+msgid "Day before yesterday"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:44
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:27
+msgid "This day last week"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:47
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:28
+msgid "Previous week"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:48
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:29
+msgid "Previous month"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:49
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:30
+msgid "Previous year"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:51
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:6
+msgid "Last 5 minutes"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:52
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:7
+msgid "Last 15 minutes"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:53
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:8
+msgid "Last 30 minutes"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:54
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:9
+msgid "Last 1 hour"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:55
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:10
+msgid "Last 3 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:56
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:11
+msgid "Last 6 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:57
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:12
+msgid "Last 12 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:58
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:13
+msgid "Last 24 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:59
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:14
+msgid "Last 2 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:60
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:15
+msgid "Last 7 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:61
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:16
+msgid "Last 30 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:62
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:17
+msgid "Last 90 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:63
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:18
+msgid "Last 6 months"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:64
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:19
+msgid "Last 1 year"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:65
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:20
+msgid "Last 2 years"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:66
+#: packages\grafana-ui\src\components\TimePicker\rangeOptions.ts:21
+msgid "Last 5 years"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:70
+msgid "Next minute"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:71
+msgid "Next 5 minutes"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:72
+msgid "Next 15 minutes"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:73
+msgid "Next 30 minutes"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:74
+msgid "Next hour"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:75
+msgid "Next 3 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:76
+msgid "Next 6 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:77
+msgid "Next 12 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:78
+msgid "Next 24 hours"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:79
+msgid "Next 2 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:80
+msgid "Next 7 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:81
+msgid "Next 30 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:82
+msgid "Next 90 days"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:83
+msgid "Next 6 months"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:84
+msgid "Next year"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:85
+msgid "Next 2 years"
+msgstr ""
+
+#: packages\grafana-data\src\datetime\rangeutil.ts:86
+msgid "Next 5 years"
+msgstr ""
+
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerContent.tsx:182
+msgid "Relative time ranges"
+msgstr ""
+
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerContent.tsx:190
+msgid "Other quick ranges"
+msgstr ""
+
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerContent.tsx:232
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerContent.tsx:264
+msgid "Absolute time range"
+msgstr ""
+
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerContent.tsx:242
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerContent.tsx:277
+msgid "Recently used absolute ranges"
+msgstr ""
+
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimePickerCalendar.tsx:283
+#: packages\grafana-ui\src\components\TimePicker\TimeRangePicker\TimeRangeForm.tsx:115
+msgid "Apply time range"
+msgstr ""

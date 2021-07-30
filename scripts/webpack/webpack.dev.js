@@ -49,12 +49,6 @@ module.exports = (env = {}) =>
                   '@babel/plugin-proposal-nullish-coalescing-operator',
                   '@babel/plugin-proposal-optional-chaining',
                   'angularjs-annotate',
-                  [
-                    'ttag',
-                    {
-                      extract: { output: 'template.pot' }
-                    }
-                  ]
                 ],
                 // Note: order is bottom-to-top and/or right-to-left
                 presets: [
