@@ -1,3 +1,65 @@
+## This is the POC how the i18n could be applied to Grafana
+
+Traditional **gettext** way, of course, with the help of ttag (https://ttag.js.org) library.
+
+The text strings in sources are transformed to the ES6 tagged templates, 
+i.e. 
+```javascript
+const s = 'Relative time ranges'
+``` 
+becomes 
+```javascript
+const s = t`Relative time ranges`
+```
+
+The ttag babel plugin extracts these strings as a side-effect of the production build:
+```
+yarn build
+```
+
+The strings goes into the [pot template](https://github.com/jkmnt/grafana_i18n/blob/i18n/app.pot).
+The normal gettext workflow follows: msginit, msgmerge, locale-specific .PO files, Poedit-armed translators etc.
+The resulting [.po files](https://github.com/jkmnt/grafana_i18n/blob/i18n/ru.po) are used to create localized builds:
+```
+yarn build:ru
+```
+The ttag babel plugin replaces the tagged strings with the localized ones, so there is no perfomance penalty.
+
+Each build is placed in the separate directory, i.e. `build` (original EN build), `build_ru`, `build_uk` etc.
+The entry points are `index.html`, `index_ru.html`, `index_uk.html`.
+
+#### FAQ
+
+**Q: What about the angular templates etc ?**
+
+**A:** This supports only the js/react part. The Angular is deprecated in Grafana anyway.
+
+**Q: What about backend ? A lot of messages in Grafana (navigation etc.) come from backend**
+
+**A:** Remains untranslated.
+
+**Q: How user may choose language ?**
+
+**A:** The backend will serve `public/views/index.html` in any case. There is no way to choose `index_{locale}.html` based on user language preference without
+hacking the backend code. You may replace it (or symlink) to set global per-server language.
+  
+**Q: The right way to do it is ..., and your code style is ...**
+
+**A:**  I'm not frontend guy.
+
+
+**Q: Why the fork is off the latest Grafana 7 branch, not Grafana 8 ?**
+
+**A:** I don't want AGPL.
+
+
+**Q: Why didn't you tag all the text strings in sources ?** 
+
+**A:** It's the POC, so just a few strings were tagged to prove the concept.
+
+
+## Original readme follows ...
+
 ![Grafana](docs/logo-horizontal.png)
 
 The open-source platform for monitoring and observability.
